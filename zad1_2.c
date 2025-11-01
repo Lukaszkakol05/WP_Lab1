@@ -11,7 +11,6 @@ void funkcja() {
 int main() {
     printf("W main (globalna): licznik = x+%d\n", licznik);
     funkcja();
-    funkcja = funkcja + 1;
     printf("Po powrocie do main: licznik = %d\n", licznik);
 return 0;
 
